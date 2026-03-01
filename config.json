@@ -1,0 +1,25 @@
+{
+    "smtp": {
+        "host": "redbull.mxrouting.net",
+        "port": 688,
+        "username": "smtp@pgupay.xyz",
+        "password": "zsbCxMes4DENuZw5PM7X",
+        "encryption": "ssl"
+    },
+    "mail": {
+        "from_email": "smtp@pgupay.xyz",
+        "from_name": "Mailer",
+        "subject": "Hello",
+        "is_html": true
+    },
+    "rate": {
+        "delay_ms": 1000
+    },
+    "security": {
+        "admin_token": ""
+    },
+    "unsubscribe": {
+        "base_url": "https://smtp.yjnet.xyz/mailer/unsubscribe.php",
+        "secret": "CHANGE_TO_A_LONG_RANDOM_SECRET"
+    }
+}

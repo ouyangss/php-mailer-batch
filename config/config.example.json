@@ -1,0 +1,25 @@
+{
+  "smtp": {
+    "host": "",
+    "port": 587,
+    "username": "",
+    "password": "",
+    "encryption": "tls"
+  },
+  "mail": {
+    "from_email": "",
+    "from_name": "Mailer",
+    "subject": "Hello",
+    "is_html": true
+  },
+  "rate": {
+    "delay_ms": 500
+  },
+  "unsubscribe": {
+    "base_url": "https://YOUR_DOMAIN/mailer/unsubscribe.php",
+    "secret": "21f5c39eee9e5add0dc044cf080823859b0deda42988178e"
+  },
+  "security": {
+    "admin_token": ""
+  }
+}

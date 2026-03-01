@@ -1,0 +1,7 @@
+/vendor/
+/data/
+/worker.log
+/config/config.json
+*.sqlite
+*.log
+.DS_Store
